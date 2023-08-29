@@ -1,3 +1,4 @@
+
 .maincontainer
 {
 display: flex;
@@ -5,18 +6,22 @@ align-items: center;
 justify-content: center;
 height: 70vh;
 width: 100%;
+flex-direction: column;
+font-family: 'Sora', sans-serif;
+
 }
 .container{
     font-family: 'Dela Gothic One', cursive;
     display: flex;
    height: 65vh;
-   width: 65vw;
+   width: 60vw;
    background-color: black;
     position: relative;
     overflow: hidden;
 }
 
 .tagcontainer{
+    color: white;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -29,7 +34,7 @@ width: 100%;
 .imgcontainer{
     height: 100%;
      width: 100%;
-     
+     display: flex;
 }
 .imgcontainer img{
     height: 100%;
@@ -38,5 +43,26 @@ width: 100%;
 }
 .tagcontainer h1{
     position: absolute;
+    font-size: 80px;
 }
-
+.paracontainer{
+    margin-top: 10px;
+    color: black;
+    height: 20px;
+    width: 44vw;
+    
+    overflow: hidden;
+}
+.footer{
+height: 20vh;
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+}
+.footer h1{
+    font-family: 'Dela Gothic One', cursive;
+}
+.footer p{
+    font-family: 'Goldman', cursive;
+    width: 70vw;
+}

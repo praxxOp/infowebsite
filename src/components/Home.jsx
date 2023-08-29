@@ -18,7 +18,18 @@ const Home = () => {
           <h1>DELHI.</h1>
           <h1>HIMALAYAS.</h1>
         </div>
+        
       </div>
+      <div className="paracontainer">
+          <p>"Mumbai, the bustling city of dreams where tradition meets modernity."</p>
+          <p>"Delhi: where history breathes amidst modernity's pulse."</p>
+          <p>"The Himalayas: where Earth touches the sky in a sublime embrace."</p>
+        </div>
+    </div>
+    <div className="footer">
+      <h1>PREV</h1>
+      <p>Embarking on journeys, we unwrap the gift of the world, finding pieces of ourselves scattered in every new place and person we encounter.</p>
+      <h1>NEXT</h1>
     </div>
     </div>
   )
