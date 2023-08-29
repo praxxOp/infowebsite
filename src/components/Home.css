@@ -1,0 +1,44 @@
+.maincontainer
+{
+display: flex;
+align-items: center;
+justify-content: center;
+height: 70vh;
+
+}
+.container{
+    font-family: 'Dela Gothic One', cursive;
+    display: flex;
+   height: 65vh;
+   width: 65vw;
+   
+    background-color: black;
+    position: relative;
+    overflow: hidden;
+}
+
+.tagcontainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  
+}
+
+.imgcontainer{
+     
+     height: 100%;
+     width: 100%;
+}
+.imgcontainer img{
+    height: 100%;
+    width: 100%;
+  position: relative;
+
+}
+.tagcontainer h1{
+   position: absolute;
+}
+
