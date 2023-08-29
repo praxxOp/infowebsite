@@ -8,9 +8,7 @@ const Home = () => {
     <div>
       <div className="maincontainer">
       <div className="container">
-        
-      
-      <div className="imgcontainer">
+        <div className="imgcontainer">
         <img src={mumbai} alt="" />
         <img src={delhi} alt="" />
         <img src={himalayas} alt="" />
