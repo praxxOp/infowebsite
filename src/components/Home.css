@@ -8,16 +8,16 @@ height: 70vh;
 width: 100%;
 flex-direction: column;
 font-family: 'Sora', sans-serif;
+overflow: hidden;
 
 }
 .container{
     font-family: 'Dela Gothic One', cursive;
     display: flex;
-   height: 65vh;
-   width: 60vw;
-   background-color: black;
+    height: 65vh;
+    width: 60vw;
     position: relative;
-    overflow: hidden;
+   
 }
 
 .tagcontainer{
@@ -27,8 +27,7 @@ font-family: 'Sora', sans-serif;
     justify-content: center;
   height: 100%;
   width: 100%;
-  position: absolute;
-  
+ 
 }
 
 .imgcontainer{
@@ -40,10 +39,15 @@ font-family: 'Sora', sans-serif;
     height: 100%;
     width: 100%;
     position: absolute;
+    left: -150%;
+
 }
+
 .tagcontainer h1{
     position: absolute;
     font-size: 80px;
+    transform: translateX(110%);
+    
 }
 .paracontainer{
     margin-top: 10px;
@@ -61,8 +65,9 @@ justify-content: space-evenly;
 }
 .footer h1{
     font-family: 'Dela Gothic One', cursive;
+    cursor: pointer;
 }
 .footer p{
     font-family: 'Goldman', cursive;
-    width: 70vw;
+    width: 65vw;
 }

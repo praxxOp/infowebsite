@@ -4,7 +4,21 @@ import  mumbai from "../assets/desktop-wallpaper-bandra-worli-sea-link-mumbai-sk
 import delhi from "../assets/1167248 1.jpg"
 import himalayas from "../assets/nepal-himalayas-mountains-nature-wallpaper-preview 1.png"
 const Home = () => {
+   const active =0
+   const tags = document.querySelectorAll(".tagcontainer h1");
+   const img = document.querySelectorAll(".imgcontainer img")
+   
+   const gotoprev = ()=>{
+
+   }
+const gotonext = ()=>{
+  let currentvalue = active +1
+  
+}
+  
+ 
   return (
+    
     <div>
       <div className="maincontainer">
       <div className="container">
@@ -27,9 +41,9 @@ const Home = () => {
         </div>
     </div>
     <div className="footer">
-      <h1>PREV</h1>
+      <h1 onClick={gotoprev}>PREV</h1>
       <p>Embarking on journeys, we unwrap the gift of the world, finding pieces of ourselves scattered in every new place and person we encounter.</p>
-      <h1>NEXT</h1>
+      <h1 onClick={gotonext}>NEXT</h1>
     </div>
     </div>
   )
