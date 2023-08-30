@@ -5,6 +5,7 @@ import delhi from "../assets/1167248 1.jpg"
 import himalayas from "../assets/nepal-himalayas-mountains-nature-wallpaper-preview 1.png"
 const Home = () => {
    const active =0
+   
    const tags = document.querySelectorAll(".tagcontainer h1");
    const img = document.querySelectorAll(".imgcontainer img")
    
