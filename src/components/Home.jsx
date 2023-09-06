@@ -69,7 +69,7 @@ const Home = () => {
       </div>
       <div className="footer">
         <h1  id="prev"
-  className={index === 0 ? "prev-opacity" : ""}
+  
   style={{ opacity: index === 0 ? 0.5 : 1 }}
   onClick={goToPrev}>PREV</h1>
         <p>Embarking on journeys, we unwrap the gift of the world, finding pieces of ourselves scattered in every new place and person we encounter.</p>
