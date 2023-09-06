@@ -73,7 +73,9 @@ const Home = () => {
   style={{ opacity: index === 0 ? 0.5 : 1 }}
   onClick={goToPrev}>PREV</h1>
         <p>Embarking on journeys, we unwrap the gift of the world, finding pieces of ourselves scattered in every new place and person we encounter.</p>
-        <h1 onClick={goToNext}>NEXT</h1>
+        <h1
+        style={{ opacity: index === tags.length-1 ? 0.5 : 1 }}
+         onClick={goToNext}>NEXT</h1>
       </div>
     </div>
   )
