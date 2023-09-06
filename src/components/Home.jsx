@@ -8,7 +8,7 @@ const Home = () => {
   const [index, setIndex] = useState(0);
   const [slideDirection, setSlideDirection] = useState('slide-in-left');
 
-  const tags = ["Mumbai.", "Delhi.", "Himalayas."];
+  const tags = ["MUMBAI.", "DELHI.", "HIMALAYAS."];
   const images = [mumbaiImage, delhiImage, himalayasImage];
 
   useEffect(() => {
@@ -26,13 +26,15 @@ const Home = () => {
     if (index < tags.length - 1) {
       setIndex(index + 1);
     }
+
   };
 
   const goToPrev = () => {
-    if (index > 0) {
+   if (index > 0) {
       setIndex(index - 1);
     }
   };
+  
 
   return (
     <div>
@@ -66,7 +68,10 @@ const Home = () => {
         </div>
       </div>
       <div className="footer">
-        <h1 onClick={goToPrev}>PREV</h1>
+        <h1  id="prev"
+  className={index === 0 ? "prev-opacity" : ""}
+  style={{ opacity: index === 0 ? 0.5 : 1 }}
+  onClick={goToPrev}>PREV</h1>
         <p>Embarking on journeys, we unwrap the gift of the world, finding pieces of ourselves scattered in every new place and person we encounter.</p>
         <h1 onClick={goToNext}>NEXT</h1>
       </div>
