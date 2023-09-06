@@ -28,7 +28,7 @@
   }
   
   .tagcontainer {
-    color: rgb(12, 7, 7);
+    color: rgb(255, 255, 255);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -60,7 +60,6 @@
     top: 0;
     left: 0;
     flex-direction: column;
-    
   }
   
   .imgcontainer img {
@@ -72,8 +71,9 @@
   }
   
   .image.active {
-    left: 0;
+    transform: translateX(0);
   }
+
   
   .tagcontainer h1 {
     position: absolute;

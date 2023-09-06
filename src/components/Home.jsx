@@ -12,7 +12,7 @@ const Home = () => {
   const images = [mumbaiImage, delhiImage, himalayasImage];
 
   useEffect(() => {
-   
+  
     if (index === 0) {
       setSlideDirection('slide-in-left');
     } else if (index === images.length - 1) {
